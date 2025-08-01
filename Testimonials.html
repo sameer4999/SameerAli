@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials | MackySportsApparel</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f8fafc;
+            margin: 0;
+            padding: 0;
+        }
+        .testimonials-container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            color: #0a9f14;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.2rem;
+            letter-spacing: 1px;
+        }
+        .testimonial-cards {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .testimonial-card {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+            padding: 32px 26px 26px 26px;
+            width: 320px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+            position: relative;
+        }
+        .testimonial-card:hover {
+            transform: translateY(-8px) scale(1.03);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.13);
+        }
+        .testimonial-avatar {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 18px;
+            border: 3px solid #0a9f14;
+            background: #eaf1fb;
+        }
+        .testimonial-text {
+            font-size: 1.08rem;
+            color: #444;
+            margin-bottom: 16px;
+            text-align: center;
+            font-style: italic;
+            line-height: 1.6;
+        }
+        .testimonial-name {
+            font-weight: bold;
+            color: #0a9f14;
+            font-size: 1.07rem;
+            margin-bottom: 2px;
+        }
+        .testimonial-role {
+            color: #888;
+            font-size: 0.97rem;
+            margin-bottom: 0;
+        }
+        .quote-icon {
+            position: absolute;
+            top: 18px;
+            right: 22px;
+            font-size: 2.2rem;
+            color: #e0e0e0;
+            pointer-events: none;
+        }
+        @media (max-width: 900px) {
+            .testimonial-cards {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="testimonials-container">
+        <h1>What Our Customers Say</h1>
+        <div class="testimonial-cards">
+            <div class="testimonial-card">
+                <span class="quote-icon">“</span>
+                <img src="Images/sarahm.jpg" alt="Sarah M." class="testimonial-avatar">
+                <div class="testimonial-text">
+                    "The quality of Macky Sports Apparel is unmatched! My new hoodie is so comfortable and stylish. I wear it everywhere."
+                </div>
+                <div class="testimonial-name">Sarah M.</div>
+                <div class="testimonial-role">Fitness Enthusiast</div>
+            </div>
+            <div class="testimonial-card">
+                <span class="quote-icon">“</span>
+                <img src="Images/jamesk.jpg" alt="James K." class="testimonial-avatar">
+                <div class="testimonial-text">
+                    "Fast shipping and great customer service. The running shorts are perfect for my daily jogs. Highly recommended!"
+                </div>
+                <div class="testimonial-name">James K.</div>
+                <div class="testimonial-role">Runner</div>
+            </div>
+            <div class="testimonial-card">
+                <span class="quote-icon">“</span>
+                <img src="Images/priyas.jpg" alt="Priya S." class="testimonial-avatar">
+                <div class="testimonial-text">
+                    "Absolutely love the performance t-shirt. Breathable and fits perfectly! Will definitely shop again."
+                </div>
+                <div class="testimonial-name">Priya S.</div>
+                <div class="testimonial-role">Yoga Instructor</div>
+            </div>
+            <div class="testimonial-card">
+                <span class="quote-icon">“</span>
+                <img src="Images/jamesk.jpg" alt="Robert B." class="testimonial-avatar">
+                <div class="testimonial-text">
+                    "Great value for money and the designs are awesome. MackySportsApparel has become my go-to for sportswear."
+                </div>
+                <div class="testimonial-name">Robert B.</div>
+                <div class="testimonial-role">Basketball Coach</div>
+            </div>

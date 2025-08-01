@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | MackySportsApparel</title>
+    <link rel="stylesheet" href="css\style.css">
+    <script src="js/script.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8fafc;
+            margin: 0;
+            padding: 0;
+        }
+        .about-container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            padding: 40px 30px;
+        }
+        h1 {
+            color: #0a9f14;
+            margin-bottom: 18px;
+        }
+        h2 {
+            color: #222;
+            margin-top: 30px;
+        }
+        p {
+            color: #444;
+            line-height: 1.7;
+        }
+        .about-values {
+            margin: 30px 0;
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .value-card {
+            background: #f1f3f4;
+            border-radius: 8px;
+            padding: 18px 16px;
+            flex: 1 1 220px;
+            min-width: 180px;
+            text-align: center;
+        }
+        .value-card h3 {
+            color: #0a9f14;
+            margin-bottom: 8px;
+        }
+        @media (max-width: 700px) {
+            .about-container {
+                padding: 20px 8px;
+            }
+            .about-values {
+                flex-direction: column;
+                gap: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <!--header with logo-->
+    <div class="logo">
+        <a href="index.html" class="logo">
+        <img src="Images/Mackylogo.png" alt="Logo">
+        Macky Sports Apparel
+        </a>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span> 
+    </div>
+
+    <!-- Navigation Menu -->
+   <div class="menu" id="menu">
+     <a href="About.html">About</a>
+     <a href="MackyLabel.html">Macky Label</a>
+     <a href="Brands.html">Brands</a>
+     <a href="Gallery.html">Gallery</a>
+     <a href="Testimonials.html">Testimonial</a>
+     <a href="Blogs.html">Blogs</a>
+     <a href="ContactUs.html">Contact Us</a>
+    </div>
+</div>
+    <div class="about-container">
+        <h1>About MackySportsApparel</h1>
+        <p>
+            MackySportsApparel was founded with a passion for empowering athletes and fitness enthusiasts with high-quality, stylish, and comfortable sportswear. Since our inception, we have been committed to delivering apparel that not only performs under pressure but also inspires confidence and motivation in everyone who wears it.
+        </p>
+        <h2>Our Mission</h2>
+        <p>
+            To provide innovative and affordable sports apparel that supports active lifestyles, encourages healthy living, and celebrates the spirit of teamwork and achievement.
+        </p>
+        <h2>Our Values</h2>
+        <div class="about-values">
+            <div class="value-card">
+                <h3>Quality</h3>
+                <p>We use premium materials and advanced technology to ensure every product meets the highest standards.</p>
+            </div>
+            <div class="value-card">
+                <h3>Performance</h3>
+                <p>Our apparel is designed for comfort, durability, and peak athletic performance in any activity.</p>
+            </div>
+            <div class="value-card">
+                <h3>Community</h3>
+                <p>We believe in building a supportive community that motivates and uplifts each other.</p>
+            </div>
+        </div>
+        <h2>Why Choose Us?</h2>
+        <p>
+            Whether you’re a professional athlete or just starting your fitness journey, MackySportsApparel is here to support you every step of the way. Our customer-first approach, fast shipping, and responsive support make us a trusted choice for sportswear lovers everywhere.
+        </p>
+        <p>
+            Thank you for being part of the MackySportsApparel family!
+        </p>
+    </div>
+</body>
+</html>
